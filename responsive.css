@@ -1,6 +1,9 @@
 @media (width<=576px){
+    html{
+        font-size: 50%;
+    }
     .grid1 {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
 }
